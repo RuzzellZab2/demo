@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Playwright
+playwright-report/
+test-results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Тестовые файлы и скриншоты
+memory-*.png
+example-com-direct.png
+*.html.test
+test-*.js
+playwright_test.js
+test_browser.js
+test_game.js
+
+# Временные файлы
+*.tmp
+*.temp
+
+# Отчеты тестирования
+memory_test_report*.md
+memory_testing_final_report.md
+corner_case_concept.md
+corner_cases_memory.md
+testing_scripts_memory_game.md
+shablon_for_testing.md
+
+# Конфигурации
+opencode.jsonc
+playwright-mcp-config.json
+start-playwright-mcp.sh
+
+# Python
+__pycache__/
+*.pyc
+.python-version
+
+# Локальный сервер
+.pid
