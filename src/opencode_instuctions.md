@@ -25,19 +25,6 @@ cd /path/to/your/project
 opencode init
 ```
 
-### Конфигурационный файл
-Создается `.opencode/config.yaml`:
-```yaml
-model: deepseek/deepseek-chat
-temperature: 0.7
-max_tokens: 4000
-context_window: 16000
-system_prompt: |
-  Ты помогаешь разрабатывать проект.
-  Следуй инструкциям из AGENTS.md.
-  Будь лаконичным и конкретным в ответах.
-```
-
 ### Настройка модели
 В `config.yaml` можно указать:
 - `model` — модель AI (deepseek/deepseek-chat, gpt-4, и т.д.)
@@ -83,16 +70,6 @@ opencode
 - [Twitter](https://twitter.com/opencodeai) — анонсы
 
 ## Лучшие практики
-
-### Структура проекта
-```
-project/
-├── .opencode/
-│   └── config.yaml
-├── AGENTS.md
-├── README.md
-└── src/
-```
 
 ### Инструкции для AI
 В `AGENTS.md` включайте:

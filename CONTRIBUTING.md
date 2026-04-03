@@ -103,38 +103,26 @@ npx serve .
 
 ## Тестирование
 
-### Типы тестов
-
-#### Базовые тесты
-```bash
-# Проверка соответствия спецификации
-node src/testing/test-memory.js
-
-# Проверка всех функций
-node src/testing/test-memory-full.js
-
-# Простой тест
-node src/testing/test-memory-simple.js
-```
-
-#### Playwright-тесты
-```bash
-# Установка Playwright (если не установлен)
-npm install playwright
-
-# Запуск тестов с Playwright
-node src/testing/test-memory-playwright.js
-node src/testing/test-memory-simple-playwright.js
-```
-
-#### Тестирование производительности
-```bash
-# Проверка использования памяти
-node src/testing/playwright_memory_test.js
-
-# Тестирование corner cases
-node src/testing/playwright_memory_test_fixed.js
-```
-
 ### Тест-сценарии
 Полный список тест-сценариев в [src/testing/testing_scripts_memory_game.md](src/testing/testing_scripts_memory_game.md)
+
+## Структура проекта
+
+```
+.
+├── AGENTS.md                    # Конфигурация AI-агентов
+├── CONTRIBUTING.md              # Руководство по вкладу
+├── .gitignore                   # Игнорируемые файлы Git
+├── index.html                   # Основной HTML-файл игры
+├── opencode.jsonc               # Конфигурация OpenCode
+├── README.md                    # Описание проекта
+├── style.css                    # Стили игры
+└── src/                         # Папка для разработчиков
+```
+
+**Описание файлов:**
+- `index.html`, `style.css` — фронтенд игры Memory Game
+- `AGENTS.md` — инструкции для AI-агентов
+- `CONTRIBUTING.md` — руководство для контрибьюторов
+- `README.md` — общая документация проекта
+
