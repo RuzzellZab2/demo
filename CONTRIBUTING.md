@@ -2,6 +2,27 @@
 
 ## Быстрый старт
 
+## Структура проекта
+
+```
+.
+├── AGENTS.md                    # Конфигурация AI-агентов
+├── CONTRIBUTING.md              # Руководство по вкладу
+├── .gitignore                   # Игнорируемые файлы Git
+├── index.html                   # Основной HTML-файл игры
+├── opencode.jsonc               # Конфигурация OpenCode
+├── README.md                    # Описание проекта
+├── style.css                    # Стили игры
+└── src/                         # Папка для разработчиков
+```
+
+**Описание файлов:**
+- `index.html`, `style.css` — фронтенд игры Memory Game
+- `AGENTS.md` — инструкции для AI-агентов
+- `CONTRIBUTING.md` — руководство для контрибьюторов
+- `README.md` — общая документация проекта
+
+
 ### Установка окружения
 ```bash
 # Клонирование репозитория
@@ -106,23 +127,4 @@ npx serve .
 ### Тест-сценарии
 Полный список тест-сценариев в [src/testing/testing_scripts_memory_game.md](src/testing/testing_scripts_memory_game.md)
 
-## Структура проекта
-
-```
-.
-├── AGENTS.md                    # Конфигурация AI-агентов
-├── CONTRIBUTING.md              # Руководство по вкладу
-├── .gitignore                   # Игнорируемые файлы Git
-├── index.html                   # Основной HTML-файл игры
-├── opencode.jsonc               # Конфигурация OpenCode
-├── README.md                    # Описание проекта
-├── style.css                    # Стили игры
-└── src/                         # Папка для разработчиков
-```
-
-**Описание файлов:**
-- `index.html`, `style.css` — фронтенд игры Memory Game
-- `AGENTS.md` — инструкции для AI-агентов
-- `CONTRIBUTING.md` — руководство для контрибьюторов
-- `README.md` — общая документация проекта
 
